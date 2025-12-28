@@ -32,3 +32,24 @@ mobileMenu.querySelectorAll("a").forEach((link) => {
 
 // Utilisation de Lucide icons
 lucide.createIcons();
+
+// =======================================================================================================
+
+// Animation reveal
+const reveals = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  },
+  { threshold: 0.35 }
+);
+
+for (let i = 0; i < reveals.length; i++) {
+  observer.observe(reveals[i]);
+}
+
