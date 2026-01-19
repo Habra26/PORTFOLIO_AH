@@ -46,7 +46,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.35 }
+  { threshold: 0.15 }
 );
 
 for (let i = 0; i < reveals.length; i++) {

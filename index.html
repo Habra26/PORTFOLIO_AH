@@ -25,10 +25,14 @@
       <nav
         class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6"
       >
-        <a href="#top" class="flex items-center gap-3">
-          <div class="h-9 w-9 rounded-full bg-zinc-800"></div>
-          <span class="text-lg font-semibold">Arnaud Habraken</span>
-        </a>
+      <a href="#top" class="flex items-center gap-3">
+        <img
+          src="assets/images/arnaud.jpg"
+          alt="Arnaud Habraken"
+          class="h-9 w-9 rounded-full object-cover ring-1 ring-zinc-700"
+        />
+        <span class="text-lg font-semibold">Arnaud Habraken</span>
+      </a>
 
         <!-- Liens ordi -->
         <div class="hidden items-center gap-8 md:flex">
@@ -101,7 +105,7 @@
           </a>
 
           <a
-            href="#contactme"
+            href="mailto:arnaud.habraken@outlook.com"
             class="mt-2 block rounded-lg bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white hover:bg-indigo-500"
           >
             Me contacter
@@ -118,12 +122,16 @@
       >
         <!-- Photo -->
         <div class="flex-shrink-0">
-          <div class="h-40 w-40 rounded-full bg-zinc-800"></div>
+          <img
+            src="assets/images/arnaud.jpg"
+            alt="Arnaud Habraken"
+            class="h-40 w-40 rounded-full object-cover bg-zinc-800 shadow-lg ring-2 ring-zinc-700"
+          />
         </div>
         <div class="max-w-2xl text-center md:text-left">
           <h1 class="text-3xl font-bold sm:text-4xl">Arnaud Habraken</h1>
           <p class="mt-3 text-zinc-300">
-            Étudiant en développement web - à la recherche d'un stage
+            Étudiant en développement web
           </p>
         </div>
       </section>
@@ -134,34 +142,18 @@
 
         <div class="mt-6 max-w-3xl space-y-4 text-zinc-300">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Je suis un étudiant en développement web de 31 ans en dernière année de BES à l'EAFC Fléron.
           </p>
 
           <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            J'aime l'apprentissage constant et la résolution de problèmes, comprendre le fonctionnement des technologies et concevoir des interfaces claires, fonctionnelles et orientées utilisateur.
           </p>
 
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
+            Avant ma reconversion, mes 12 années dans l'horeca m'ont permis de développer des compétences telles que la gestion du stress, l'adaptabilité, le travail d'équipe, la rigueur, le respect des procédures et l'organisation.
           </p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-          </p>
-
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
-          </p>
+          <p>Je suis actuellement à la recherche d'un stage en développement web afin de continuer à apprendre et évoluer au sein d'une équipe professionnelle.</p>
         </div>
       </section>
 
@@ -335,7 +327,7 @@
 
       <!-- PROJETS -->
       <section id="projects" class="reveal border-t border-zinc-800 py-16">
-        <h2 class="text-2xl font-semibold">Projets</h2>
+        <h2 class="text-2xl font-semibold">Mes projets</h2>
         <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <!-- Mon Github -->
           <a
@@ -363,6 +355,42 @@
                   class="rounded-full border border-zinc-800 bg-zinc-900 px-2 py-1 text-zinc-300"
                 >
                   Projets
+                </span>
+              </div>
+            </article>
+          </a>
+
+          <!-- RETRO MONSTERS -->
+          <a
+            href="https://gitlab.com/Habra26/RETRO_MONSTERS_2026"
+            class="group h-full"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <article
+              class="h-full rounded-xl border border-zinc-800 bg-zinc-950 p-5 transition hover:border-zinc-600 hover:bg-zinc-900"
+            >
+              <div class="h-40 overflow-hidden rounded-lg bg-zinc-900">
+                <img
+                  src="./assets/images/retromonsters.png"
+                  alt="retromonsters"
+                  class="h-full w-full object-cover transition group-hover:scale-105"
+                />
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">RETRO_MONSTERS_2026</h3>
+              <p class="mt-2 text-sm text-zinc-400">
+                Site de gestion CRUD en Laravel.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span
+                  class="rounded-full border border-zinc-800 bg-zinc-900 px-2 py-1 text-zinc-300"
+                >
+                  Laravel
+                </span>
+                <span
+                  class="rounded-full border border-zinc-800 bg-zinc-900 px-2 py-1 text-zinc-300"
+                >
+                  MySQL
                 </span>
               </div>
             </article>
@@ -565,27 +593,27 @@
             </a>
           </li>
 
-          <!-- LinkedIn -->
+          <!-- GitHub -->
           <li>
             <a
-              href="#"
+              href="https://gitlab.com/Habra26"
               target="_blank"
               rel="noopener noreferrer"
               class="flex items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 text-zinc-300 hover:border-zinc-700"
             >
               <img
-                src="./assets/icons/linkedin.svg"
-                alt="LinkedIn"
+                src="./assets/icons/gitlab.svg"
+                alt="GitLab"
                 class="h-6 w-6"
               />
-              <span>LinkedIn</span>
+              <span>GitLab</span>
             </a>
           </li>
 
           <!-- CV -->
           <li>
             <a
-              href="#"
+              href="./assets/cv/CV-Arnaud-Habraken.pdf"
               target="_blank"
               class="flex items-center gap-3 rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 text-zinc-300 hover:border-zinc-700"
             >
